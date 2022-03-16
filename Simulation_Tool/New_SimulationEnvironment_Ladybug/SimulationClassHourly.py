@@ -24,7 +24,7 @@ class ASF_Simulation(object):
     #initilize ASF_simulation class
 
     def __init__(self,
-            SimulationData= {
+        SimulationData= {
             'optimizationTypes' : ['E_total'], 'DataFolderName' : 'ZH13_49comb_WinterSunnyDay', 'FileName' : 'ZH13_49comb_WinterSunnyDay','geoLocation' : 'Zuerich_Kloten_2013', 'EPWfile': 'Zuerich_Kloten_2013.epw','Save' : True, 'ShowFig': False, 'timePeriod': None},  
             SimulationPeriod = {
             'FromMonth': 1, 'ToMonth': 1, 'FromDay': 8, 'ToDay': 8, 'FromHour': 5, 'ToHour': 20},
@@ -140,7 +140,7 @@ class ASF_Simulation(object):
         self.weatherData = epw_reader(self.paths['weather'])
         
         if not os.path.isdir(self.paths['PV']):
-		os.makedirs(self.paths['PV']) 
+		    os.makedirs(self.paths['PV']) 
         
         
         if not os.path.isdir(self.paths['RadiationData']):

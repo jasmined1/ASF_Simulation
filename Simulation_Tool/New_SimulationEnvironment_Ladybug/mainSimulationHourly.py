@@ -123,20 +123,20 @@ from supplySystem import *
 from emissionSystem import *
     
 SimulationPeriod = {
-'FromMonth': 7, #7, #1,
-'ToMonth': 7,#7, #1,
-'FromDay': 6, #6, #8,
-'ToDay': 6, #8,
-'FromHour': 12,#5
-'ToHour': 13}#20
+'FromMonth': 3, #7, #1,
+'ToMonth': 3,#7, #1,
+'FromDay': 1, #6, #8,
+'ToDay': 1, #8,
+'FromHour': 6,#5
+'ToHour': 18}#20
 
 
 
 #Set simulation data 
 SimulationData= {
 'optimizationTypes' : ['E_total', 'Cooling'], 
-'DataFolderName' : 'ZH13test', 
-'FileName' : 'ZH13test',
+'DataFolderName' : 'ZH13test_month', 
+'FileName' : 'ZH13test_month',
 'geoLocation' : 'Zuerich_Kloten_2013', 
 'EPWfile': 'Zuerich_Kloten_2013.epw',
 'Save' : True, 
