@@ -127,8 +127,8 @@ SimulationPeriod = {
 'ToMonth': 7,#7, #1,
 'FromDay': 6, #6, #8,
 'ToDay': 6, #8,
-'FromHour': 5,#5
-'ToHour': 20}#20
+'FromHour': 12,#5
+'ToHour': 13}#20
 
 
 
