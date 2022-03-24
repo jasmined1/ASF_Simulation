@@ -128,15 +128,15 @@ SimulationPeriod = {
 'FromDay': 6, #6, #8,
 'ToDay': 6, #8,
 'FromHour': 12,#5
-'ToHour': 13}#20
+'ToHour': 15}#20
 
 
 
 #Set simulation data 
 SimulationData= {
-'optimizationTypes' : ['E_total', 'Cooling'], 
-'DataFolderName' : 'ZH13test', 
-'FileName' : 'ZH13test',
+'optimizationTypes' : ['E_total', 'Cooling', 'Heating', 'SolarEnergy', 'Lighting', 'E_HCL'], 
+'DataFolderName' : 'ZH13test_15', 
+'FileName' : 'ZH13test_15',
 'geoLocation' : 'Zuerich_Kloten_2013', 
 'EPWfile': 'Zuerich_Kloten_2013.epw',
 'Save' : True, 
